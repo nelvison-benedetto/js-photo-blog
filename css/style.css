@@ -1,5 +1,18 @@
 
 body{
-    font-family: "Sometype Mono","Edu TAS Beginner","Roboto", Arial, Helvetica, sans-serif;
+    font-family: "Edu TAS Beginner", "Sometype Mono","Roboto", Arial, Helvetica, sans-serif;
     /* min-width: 1440px; */
+}
+
+header div{
+    background-image: url("../assets/img/wall.png");
+    background-repeat: repeat;
+}
+main{
+    background-image: url("../assets/img/cork.png");
+}
+.inner-image{
+    width: 200px;
+    height: 200px;
+    background-color: black;
 }
