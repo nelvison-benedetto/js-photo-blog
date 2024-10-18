@@ -1,3 +1,19 @@
+:root{
+    --green1 : #92c952;
+    --purple1 : #771796;
+    --green2 : #24f355;
+    --rose1 : #d32776;
+    --rose2 : #f66b97;
+    --blue1 : #56a8c2;
+}
+/* UTILITIES */
+.bg-green1{background-color: var(--green1);}
+.bg-green2{background-color: var(--green2);}
+.bg-purple1{background-color: var(--purple1);}
+.bg-rose1{background-color: var(--rose1);}
+.bg-rose2{background-color: var(--rose2);}
+.bg-blue1{background-color: var(--blue1);}
+
 
 body{
     font-family: "Edu TAS Beginner", "Sometype Mono","Roboto", Arial, Helvetica, sans-serif;
@@ -12,7 +28,6 @@ main{
     background-image: url("../assets/img/cork.png");
 }
 .inner-image{
-    width: 200px;
-    height: 200px;
-    background-color: black;
+    /* width: 90%; */
+    aspect-ratio: 1 / 1;
 }
