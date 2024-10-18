@@ -6,6 +6,12 @@
     --rose2 : #f66b97;
     --blue1 : #56a8c2;
 }
+
+body{
+    font-family: "Edu TAS Beginner", "Sometype Mono","Roboto", Arial, Helvetica, sans-serif;
+    /* min-width: 1440px; */
+}
+
 /* UTILITIES */
 .bg-green1{background-color: var(--green1);}
 .bg-green2{background-color: var(--green2);}
@@ -14,11 +20,11 @@
 .bg-rose2{background-color: var(--rose2);}
 .bg-blue1{background-color: var(--blue1);}
 
+.font-sometypemono{ font-family: "Sometype Mono";}
+.font-roboto{ font-family: "Roboto";}
+.font-arial{ font-family: "Arial";}
 
-body{
-    font-family: "Edu TAS Beginner", "Sometype Mono","Roboto", Arial, Helvetica, sans-serif;
-    /* min-width: 1440px; */
-}
+
 
 header div{
     background-image: url("../assets/img/wall.png");
@@ -30,4 +36,7 @@ main{
 .inner-image{
     /* width: 90%; */
     aspect-ratio: 1 / 1;
+}
+.theshadow{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
