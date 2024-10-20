@@ -6,6 +6,7 @@
     --rose2 : #f66b97;
     --blue1 : #56a8c2;
 }
+#debug *{border: 1px dashed black;}
 
 body{
     font-family: "Edu TAS Beginner", "Sometype Mono","Roboto", Arial, Helvetica, sans-serif;
@@ -36,6 +37,19 @@ main{
     /* width: 90%; */
     aspect-ratio: 1 / 1;
 }
-.theshadow{
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+.custom-card{
+    z-index: 1;
+    box-shadow: 2.4px 2.4px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.62s ease;  /*fluid transaction*/
 }
+.pin-card{transition: opacity 0.3s ease;}
+.custom-card:hover{
+    cursor: pointer;
+    z-index: 5;
+    transform: translateY(-6px) scale(1.08); /*+10px axisY up +5%*/
+    box-shadow: 4.6px 4px 8px rgba(0, 0, 0, 0.5);
+    .pin-card{opacity: 0;}
+}
+
+
