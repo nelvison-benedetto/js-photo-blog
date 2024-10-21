@@ -33,12 +33,9 @@ header div{
 main{
     background-image: url("../assets/img/cork.png");
 }
-.inner-image{
-    /* width: 90%; */
-    aspect-ratio: 1 / 1;
-}
 
 .custom-card{
+    min-height: 380px;  /* !!!necessary for lg and md, in sm will be larger */
     z-index: 1;
     box-shadow: 2.4px 2.4px 4px rgba(0, 0, 0, 0.5);
     transition: transform 0.62s ease;  /*fluid transaction*/
@@ -51,5 +48,18 @@ main{
     box-shadow: 4.6px 4px 8px rgba(0, 0, 0, 0.5);
     .pin-card{opacity: 0;}
 }
-
+.card-content{
+    width: 100%;
+}
+.inner-image{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+/* .descrp{
+    max-height: 48px;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-wrap: break-word; 
+}*/
 
