@@ -5,6 +5,7 @@
     --rose1 : #d32776;
     --rose2 : #f66b97;
     --blue1 : #56a8c2;
+    --blue2 : #1da1f2;
 }
 #debug *{border: 1px dashed black;}
 
@@ -20,6 +21,7 @@ body{
 .bg-rose1{background-color: var(--rose1);}
 .bg-rose2{background-color: var(--rose2);}
 .bg-blue1{background-color: var(--blue1);}
+.bg-blue2{background-color: var(--blue2);}
 
 .font-sometypemono{ font-family: "Sometype Mono";}
 .font-roboto{ font-family: "Roboto";}
