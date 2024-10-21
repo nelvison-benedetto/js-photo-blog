@@ -26,7 +26,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js" integrity="sha512-DdX/YwF5e41Ok+AI81HI8f5/5UsoxCVT9GKYZRIzpLxb8Twz4ZwPPX+jQMwMhNQ9b5+zDEefc+dcvQoPWGNZ3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </head>
 
-    <body id="debug">
+    <body id="#" class="#">
         <header>
             <div class="container-fluid d-flex align-items-center justify-content-center">
                 <h1 class="fw-bolder pt-3 pb-2">ESTATE '24</h1>
@@ -36,6 +36,17 @@
             <div class="container pt-4 pb-3">
                 <div id="photos" class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
                     <!-- here generate cards -->
+                </div>
+            </div>
+            <div class="position-fixed d-none w-100 h-100 align-items-center justify-content-center overlay ">
+                <div class="overlay-content d-flex flex-column align-items-center">
+                    <div class="w-100 col-8 d-flex justify-content-end">
+                        <button type="button" class="bg-blue2 btn-lg rounded text-white pt-2" id="btn-close" aria-label="Close"><h4>Close</h4></button>
+                    </div>
+                    <div class="spinner-border text-white mt-3" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <img class="overlay-img" src="" alt="immagine overlay photo">
                 </div>
             </div>
 
