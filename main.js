@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     const btn_close = document.getElementById('btn-close');
     btn_close.addEventListener('click',function(e){
-        e.preventDefault();
+        e.preventDefault();  
         console.log("cliccked button!");
         overlay.classList.remove('d-flex');
         overlay.classList.add('d-none');
@@ -129,8 +129,6 @@ document.addEventListener('DOMContentLoaded',()=>{
         photos.innerHTML = totMarkup;
     }
 });
-
-//GENERATE build card to use for all cards, and add it in html, with descr + photo. Adjust size photo & cards!
 
 function generatePhoto(photo){
     const{albumId,id,title,url,thumbnailUrl} = photo;

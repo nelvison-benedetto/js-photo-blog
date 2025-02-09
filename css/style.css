@@ -49,6 +49,7 @@ main{
     transform: translateY(-6px) scale(1.08) rotate(8deg); /*+10px axisY up +5%*/
     box-shadow: 4.6px 4px 8px rgba(0, 0, 0, 0.5);
     .pin-card{opacity: 0;}
+    /* overflow: hidden;  nasconde spigolo di img dentro una card rounded */
 }
 .card-content{
     width: 100%;
